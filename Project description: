@@ -1,0 +1,20 @@
+Project description:
+
+This project involves developing a Flask application that uses a deep learning model to make predictions 
+based on data sent via a REST API. The model is implemented with PyTorch and is trained to predict specific outputs based on given inputs.
+
+The project starts by defining a class for the neural network model. The model consists of an input layer, a hidden layer and an output
+layer. By using the activation function, in this case ReLU, the model can learn to extract relevant features from the input and generate the correct output.
+
+After defining the model, predefined weights are loaded from the file (train_model1.pth) for use in predictions. This makes it possible to use a 
+model that is already trained instead of training it from scratch.
+
+Next, the Flask application is created and the "expect" REST API method is selected. When a POST request is received via the "/predict" endpoint, the received
+data is extracted and converted to a tensor to match the format of the form's input. The preloaded model is then used to make a prediction based on the 
+received data. The result is converted to text and returned as a response from the REST API.
+
+The application can then be started and run on localhost using the built-in Flask server.
+
+This project allows users to use Flask as a service to make predictions using a trained deep learning model. It can be used
+for various purposes, such as forecasting prices, categorizing data or analyzing patterns in incoming data. In this project, we have trained the machine to predict
+oil prices, and this helps companies to compete and know their prices to earn or reduce companies' losses when they speculate.

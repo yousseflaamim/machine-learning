@@ -1,3 +1,5 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 Project description:
 
 This project involves developing a Flask application that uses a deep learning model to make predictions 
@@ -18,3 +20,15 @@ The application can then be started and run on localhost using the built-in Flas
 This project allows users to use Flask as a service to make predictions using a trained deep learning model. It can be used
 for various purposes, such as forecasting prices, categorizing data or analyzing patterns in incoming data. In this project, we have trained the machine to predict
 oil prices, and this helps companies to compete and know their prices to earn or reduce companies' losses when they speculate.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+why did you choose (NN)
+
+My project works with data that shows simple linear relationships to predict oil prices based on a simple and
+easy-to-interpret model, so I chose nn for its flexibility and ability to learn and control its multiple layers of
+multiple neurons to deal with problems, deal with data well, and control its transactions using the algorithms used.
+To process data, extract patterns, and predict the future. It is based on inputs and outputs, and is less complex
+than Gradient Boosting, because it is more based on the tree structure. Collect complex information and data.
+Gradient boosting is trained by collecting predictions from an ensemble of decision trees, which is a more complex
+sequential process than nn
